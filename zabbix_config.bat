@@ -10,10 +10,10 @@ echo -----------------------------------------------------------
 echo PROCESSOR_ARCHITECTURE var:
 echo %PROCESSOR_ARCHITECTURE% | find /i "x86" > nul
 if %errorlevel%==0 (
-    set netpath=\\YOUR_NETWORK_SHARE_LOCATION\
+    set netpath=\\YOUR_NETWORK_SHARE_LOCATION\files\software\Zabbix2\32bit_Agent_34
 	echo ----Path set to 32bit----
 ) else (
-    set netpath=\\YOUR_NETWORK_SHARE_LOCATION\
+    set netpath=\\YOUR_NETWORK_SHARE_LOCATION\files\software\Zabbix2\64bit_Agent_34
 	echo ----Path set to 64bit----
 )
 
